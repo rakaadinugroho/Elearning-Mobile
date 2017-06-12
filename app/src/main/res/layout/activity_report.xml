@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rakaadinugroho.msuryanusatara.core.report.ReportActivity">
+    <LinearLayout
+        android:padding="@dimen/big_standard_margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="@dimen/big_standard_margin"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/report_title"
+                    android:text="@string/load_data"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/standard_text"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/report_date"
+                    android:text="@string/load_data"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_standard_margin"/>
+                <flepsik.github.com.progress_ring.ProgressRingView
+                    android:id="@+id/report_indicator"
+                    app:ring_width="15dp"
+                    app:corner_edges="true"
+                    app:animation_duration="500"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_marginBottom="@dimen/big_standard_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/report_total"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorGray"
+                        android:text="@string/load_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/report_correct"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorGray"
+                        android:text="@string/load_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/report_grade"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorGray"
+                        android:text="@string/load_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/report_session"
+                    android:text="@string/report_session"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/report_tryagai"
+                    android:text="@string/report_trayagain"
+                    android:background="@color/colorWhite"
+                    android:textColor="@color/colorGray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

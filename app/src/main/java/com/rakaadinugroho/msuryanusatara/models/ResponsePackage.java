@@ -1,0 +1,103 @@
+
+package com.rakaadinugroho.msuryanusatara.models;
+
+import java.util.List;
+import javax.annotation.Generated;
+import com.google.gson.annotations.SerializedName;
+
+@Generated("net.hexar.json2pojo")
+@SuppressWarnings("unused")
+public class ResponsePackage {
+
+    @SerializedName("exam_detail")
+    private String mExamDetail;
+    @SerializedName("exam_id")
+    private String mExamId;
+    @SerializedName("exam_thumbnail")
+    private String mExamThumbnail;
+    @SerializedName("exam_time")
+    private String mExamTime;
+    @SerializedName("exam_title")
+    private String mExamTitle;
+    @SerializedName("exam_token")
+    private String mExamToken;
+    @SerializedName("exam_total")
+    private String mExamTotal;
+    @SerializedName("examination")
+    private List<Examination> mExamination;
+    @SerializedName("status")
+    private Boolean mStatus;
+
+    public String getExamDetail() {
+        return mExamDetail;
+    }
+
+    public void setExamDetail(String examDetail) {
+        mExamDetail = examDetail;
+    }
+
+    public String getExamId() {
+        return mExamId;
+    }
+
+    public void setExamId(String examId) {
+        mExamId = examId;
+    }
+
+    public String getExamThumbnail() {
+        return mExamThumbnail;
+    }
+
+    public void setExamThumbnail(String examThumbnail) {
+        mExamThumbnail = examThumbnail;
+    }
+
+    public String getExamTime() {
+        return mExamTime;
+    }
+
+    public void setExamTime(String examTime) {
+        mExamTime = examTime;
+    }
+
+    public String getExamTitle() {
+        return mExamTitle;
+    }
+
+    public void setExamTitle(String examTitle) {
+        mExamTitle = examTitle;
+    }
+
+    public String getExamToken() {
+        return mExamToken;
+    }
+
+    public void setExamToken(String examToken) {
+        mExamToken = examToken;
+    }
+
+    public String getExamTotal() {
+        return mExamTotal;
+    }
+
+    public void setExamTotal(String examTotal) {
+        mExamTotal = examTotal;
+    }
+
+    public List<Examination> getExamination() {
+        return mExamination;
+    }
+
+    public void setExamination(List<Examination> examination) {
+        mExamination = examination;
+    }
+
+    public Boolean getStatus() {
+        return mStatus;
+    }
+
+    public void setStatus(Boolean status) {
+        mStatus = status;
+    }
+
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Surya Nusantara</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="password">Kata Kunci</string>
+    <string name="button_signin">Masuk Sekarang</string>
+    <string name="anchor_signup">Belum memiliki akun ? Daftar dahulu</string>
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="fullname">Nama Lengkap</string>
+    <string name="phonenumber">Nomor Handphone</string>
+    <string name="classlevel">Jenjang</string>
+    <string name="button_signup">Daftar Sekarang</string>
+    <string name="anchor_signin">Sudah memiliki akun? Sigin sekarang</string>
+    <string name="level_placeholder">Pilih Jenjang</string>
+    <string-array name="level_array">
+        <item>SD / MI / Sederajat</item>
+        <item>SMP / MTS / Sederajat</item>
+        <item>SMA / MA Sederajat</item>
+        <item>SMK / MAK</item>
+        <item>S1 / D1 / D2 / D3</item>
+        <item>Umum</item>
+    </string-array>
+    <string name="tab_account">Akun</string>
+    <string name="tab_home">Beranda</string>
+    <string name="tab_setting">Setelan</string>
+    <string name="tab_transaction">Riwayat</string>
+    <string name="list_category">DAFTAR KATEGORI</string>
+    <string name="total_soal">Butir</string>
+    <string name="waktu_soal">Menit</string>
+    <string name="title_activity_category">Nama Category</string>
+    <string name="category_label">Kategori</string>
+    <string name="category_detail_label">Detail</string>
+    <string name="action_settings">Setelan</string>
+    <string name="available_test">Paket Soal Tersedia</string>
+    <string name="exam_time">WAKTU YANG DIBERIKAN</string>
+    <string name="exam_title">DESKRIPSI SOAL</string>
+    <string name="exam_total">TOTAL PERTANYAAN</string>
+    <string name="load_data">Menunggu data...</string>
+    <string name="exam_join">MULAI LATIHAN</string>
+    <string name="report_session">LIHAT PEMBAHASAN</string>
+    <string name="report_trayagain">LATIHAN LAGI</string>
+    <string name="detail_change_password">Ubah Kunci</string>
+    <string name="detail_name_label">Nama Lengkap</string>
+    <string name="detail_profil">Profil Lengkap</string>
+    <string name="detail_username_label">Username</string>
+    <string name="other_about">Tentang Kami</string>
+    <string name="other_help">Bantuan</string>
+    <string name="other_signout">Keluar</string>
+</resources>

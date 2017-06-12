@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.rakaadinugroho.msuryanusatara.core.authentication.signin.SignInFragment">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_margin="@dimen/big_standard_margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/snico"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+        <android.support.design.widget.TextInputLayout
+            android:padding="@dimen/small_standard_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/signin_username"
+                android:hint="@string/username"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:padding="@dimen/small_standard_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/signin_password"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/signin_button"
+            android:text="@string/button_signin"
+            android:padding="@dimen/small_standard_margin"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/signin_anchor_signup"
+            android:text="@string/anchor_signup"
+            android:padding="@dimen/small_standard_margin"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

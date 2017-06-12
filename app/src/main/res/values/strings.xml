@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Surya Nusantara</string>
+    <string name="level_placeholder">Choose a Level</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="button_signin">Login Now</string>
+    <string name="anchor_signup">Don\'t have an account ? Register Now</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fullname">Fullname</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="classlevel">Level</string>
+    <string name="button_signup">Register Now</string>
+    <string name="anchor_signin">Do you have an account ? Signin now</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_transaction">History</string>
+    <string name="tab_account">Account</string>
+    <string name="tab_setting">Settings</string>
+    <string name="list_category">LIST CATEGORY</string>
+    <string name="total_soal">Poin</string>
+    <string name="waktu_soal">Minutes</string>
+    <string name="title_activity_category">Category Nama</string>
+    <string name="action_settings">Settings</string>
+    <string name="category_label">Category</string>
+    <string name="category_detail_label">Detail of Category</string>
+    <string name="available_test">Available Examination</string>
+    <string name="exam_title">DESCRIPTION</string>
+    <string name="load_data">Loading data...</string>
+    <string name="exam_time">MAXIMUM TIME</string>
+    <string name="exam_total">TOTAL QUESTION</string>
+    <string name="exam_join">TRY IT NOW</string>
+    <string name="report_session">SEE EXPLANATION</string>
+    <string name="report_trayagain">TRY AGAIN</string>
+    <string name="detail_profil">Detail Profile</string>
+    <string name="detail_name_label">Fullname</string>
+    <string name="detail_username_label">Username</string>
+    <string name="detail_change_password">Change Password</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="other_about">About Us</string>
+    <string name="other_help">Help Me</string>
+    <string name="other_signout">Signout</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_standard_margin">16dp</dimen>
+    <dimen name="small_standard_margin">8dp</dimen>
+
+    <dimen name="big_text">18sp</dimen>
+    <dimen name="standard_text">16sp</dimen>
+    <dimen name="item_corner">10dp</dimen>
+    <dimen name="small_text">10sp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="quiz_separator">45dp</dimen>
+</resources>
