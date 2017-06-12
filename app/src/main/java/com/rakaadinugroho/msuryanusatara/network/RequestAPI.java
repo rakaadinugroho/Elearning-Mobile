@@ -28,39 +28,39 @@ import retrofit2.http.Query;
 
 public interface RequestAPI {
     @FormUrlEncoded
-    @POST("auth/signin")
+    @POST("/auth/signin")
     Observable<ResponseAuth> login(@Field("username") String username,
                                    @Field("password") String password);
     @FormUrlEncoded
-    @POST("auth/signup")
+    @POST("/auth/signup")
     Observable<ResponseAuth> register(@Field("username") String username,
                                       @Field("password") String password,
                                       @Field("fullname") String fullname,
                                       @Field("stage") String level);
-    @GET("category")
+    @GET("/category")
     Observable<ResponseCategory> category(@Header("Authorization") String token);
-    @GET("package/latest")
+    @GET("/package/latest")
     Observable<ResponseLatest> latestpackage(@Header("Authorization") String token);
-    @GET("category/detail")
+    @GET("/category/detail")
     Observable<ResponseDetailCategory> detailcategory(@Header("Authorization") String token,
                                                       @Query("id") String categoryId);
-    @GET("package")
+    @GET("/package")
     Observable<ResponsePackage> examination(@Header("Authorization") String token,
                                             @Query("id") String examId);
-    @GET("package/passexam")
+    @GET("/package/passexam")
     Observable<ResponsePassedExam> passedexam(@Header("Authorization") String token,
                                               @Query("user") String userId,
                                               @Query("exam") String examId);
-    @POST("package/passexam")
+    @POST("/package/passexam")
     Observable<ResponseReport> passreport(@Header("Authorization") String token,
                                           @Body RequestReport requestReport);
 
-    @GET("package/history")
+    @GET("/package/history")
     Observable<ResponseHistory> myhistory(@Header("Authorization") String token,
                                           @Query("user") String userKon);
 
     @FormUrlEncoded
-    @POST("auth/change")
+    @POST("/auth/change")
     Observable<ResponseAuth> changepassword(@Header("Authorization") String token,
                                             @Field("username") String username,
                                             @Field("oldpassword") String oldpassword,
