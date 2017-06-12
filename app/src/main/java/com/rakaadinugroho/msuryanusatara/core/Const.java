@@ -8,5 +8,5 @@ package com.rakaadinugroho.msuryanusatara.core;
  */
 
 public class Const {
-    public static String BASE_URL   = "http://suryanusantara.pdef.space/api/";
+    public static String BASE_URL   = "http://api.mysite.com/v1/";
 }
