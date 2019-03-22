@@ -1,6 +1,6 @@
 # Elearning Mobile for Android
 
-Halo! . Ini adalah Projek Terbuka Untuk Pengembangan Sistem Ujian Online dan Elearning Berbasis Android, dikembangkan dengan mengimplementasikan RxJava, dan Java 8. dengan Arsitektur Model-View-Presenter yang masih sederhana.
+Halo! . Ini adalah Projek Terbuka Untuk Pengembangan Sistem Ujian Online dan Elearning Berbasis Android, dikembangkan dengan mengimplementasikan RxJava, dan Java 8. dengan Arsitektur Model-View-Presenter .
 
 Anda juga bisa melihat OpenSource untuk API nya :
 [API Mobile Elearning](https://github.com/rakaadinugroho/Elearning-Mobile-API).
