@@ -22,8 +22,7 @@ ke Sistem IDE Anda.
 Fork dan Bermulailah Berimajinasi dengan Fitur-fitur baru :)
 
 ## Dibuat Oleh
-1. [Raka Adi Nugroho](http://facebook.com/nugroho.rakaadi)
-2. Yourname?
+[Raka Adi Nugroho](mailto:nugrohoraka@gmail.com)
 
 ## Support Now
 <a href="https://www.buymeacoffee.com/r431sGS" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
